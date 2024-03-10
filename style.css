@@ -1,0 +1,572 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* =========FIX ICONS STYLE============== */
+.fix_icon{
+    display: none;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.3em 2.5em;
+    border: 1px solid black;
+    color: gray;
+}
+.fix_icon i{
+    margin: 0% 6%;
+}
+/* ============================FIRST ======================================= */
+.head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    margin-left: 20px;
+    color: gray;
+    background-color: rgb(229, 223, 223);
+    padding: 4px;
+    border-radius: 5px;
+}
+.head p{
+    margin-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+/* .head .select_none{
+    display: block;
+} */
+select{
+    border: 1px solid white;
+    color: gray;
+}
+
+/* ===========================HEADER========================= */
+header{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heading{
+    width: 30%;
+    font-size: 50px;
+    color: rgb(246, 127, 127);
+}
+input{
+    padding-left: 10px;
+    height: 40px;
+    width: 50%;
+    color: gray;
+    border: 1px solid rgba(194, 193, 193, 0.763);
+    border-radius: 3px;
+}
+.search{
+    position: relative;
+    right: 6%;
+    top: 10px;
+}
+.icon2{
+    margin-top: 10px;
+    color: rgb(155, 154, 154);
+    margin-right: 25px;
+}
+.navbar{
+    padding: 20px;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+}
+
+/* ===========================FIRST FASHION SALE PHOTO============================= */
+.main_image{
+    background-image: url(./banner-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    max-width: 100vw;
+    padding: 1.5em 0em;
+}
+.Sale{
+    width: 50%;
+    /* margin: 0em 8em; */
+    padding: 4% 6%;
+    /* position: relative;
+    top: 100px;
+    left: 150px; */
+}
+.Trending{
+    font-size: 50px;
+    color: rgb(231, 131, 131);
+    margin-bottom: 15px;
+}
+.FASHION_SALE{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.doller{
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.doller strong{
+    font-size: 60px;
+    font-weight: 800;
+}
+.shop_button{
+    background-color: rgb(244, 85, 112);
+    font-weight: 800;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* =========================== FIRST FOUR BOXES ========================== */
+
+section{
+    margin: 0px 3.5em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}
+
+.box_1{
+    margin-top: 30px;
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: 3px;
+    padding: 0.6em;
+    display: flex;
+    align-items: center;
+}
+.box_1:hover{
+    box-shadow: 1px 1px 5px rgb(56, 240, 166);
+}
+
+.dress_img img{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(198, 191, 191);
+    padding: 8px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+.flex{
+    font-size: 14px;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 5px;
+}
+.show_all a{
+    text-decoration: none;
+    color: brown;
+    position: relative;
+    right: 53px;
+}
+/* ======================================================== */
+.main_all_items{
+    margin: 4em 0em;
+    display: flex;
+}
+.main_all_items .aside1{
+    /* width: 30%; */
+    position: sticky;
+    top: 0px;
+}
+
+.aside1 h1{
+    margin: 0% 1em;
+    margin-bottom: 1.5em;
+}
+
+.banner{
+    width: 22em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.banner img{
+    height: 30px;
+    width: 30px;
+}
+
+.banner p{
+    position: relative;
+    right: 28%;
+}
+/* ============================================================= */
+.banner2_items{
+    /* width: 21%; */
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 3px;
+    margin: 10px 30px;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+}
+
+.banner2_items:hover{
+    box-shadow: 1px 1px 5px rgb(161, 224, 161);
+}
+
+.banner2_image2{
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.tshirt_image{
+    height: 5em;
+    width: 5em;
+}
+
+.banner2_item_name{
+    font-weight: bold;
+}
+
+.banner2_item_name p{
+    margin-bottom: 5px;
+}
+.banner2_item_name i{
+    margin-bottom: 5px;
+}
+
+.banner2_item_prize span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(81, 80, 80);
+    margin-right: 10px;
+}
+/* ================================================================ */
+
+
+.top_items{
+    padding: 0% 1em;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.underline_main_item{
+    width: 80%;
+}
+
+.banner_column{
+    padding: 0% 0.5em;
+    padding-left: 1em;
+    width: 33%;
+}
+.banner_column h3{
+    font-size: 25px;
+}
+
+.banner_column hr{
+    margin-bottom: 8%;
+}
+
+.banner2_items2{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 3px;
+    padding: 0.3em 0.2em;
+    margin-bottom: 1em;
+}
+.banner2_items2:hover{
+    box-shadow: 1px 1px 5px rgb(161, 224, 161);
+}
+
+
+.banner2_item2_prize .span1{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(224, 44, 44);
+    margin-right: 10px;
+}
+/* ====================================================*/
+.heading2{
+    margin-top: 1em;
+}
+
+.Shampoo_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1.5em 3em;
+    margin-bottom: 4em;
+}
+
+.shampoo{
+    margin: 1em 2em;
+}
+
+.shampoo_prize{
+    padding: 3em 0em;
+    width: 50%;
+    height: 100%;
+}
+
+.shampoo_prize .paragraph{
+    font-size: 18px;
+    color: rgb(104, 102, 102);
+}
+
+.gap{
+    margin-bottom: 0.5em;
+}
+.shampoo_heading{
+    font-size: 18px;
+    font-weight: bolder;  
+}
+
+.shampoo_prize span{
+    font-size: 1.7em;
+    margin-right: 0.3em;
+    color: rgb(248, 105, 129);
+}
+.shampoo_prize button{
+    border: none;
+    background-color: rgb(248, 105, 129);
+    padding: 7px 15px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 1em;
+
+}
+.shampoo_prize .cart{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7em;
+}
+
+.shampoo_prize .time{
+    width: 10%;
+    display: flex;
+    text-align: center;
+}
+.shampoo_prize .time p{
+    background-color: rgb(232, 225, 225);
+    padding: 0.4em 0.2em;
+    border-radius: 5px;
+    margin-right: 20%;
+}
+/* ========================================================================================== */
+.h3_product{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.item_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em 0em;
+    gap: 1.2em;
+}
+
+
+.item_one{
+    width: 13em;
+    border: 1px solid rgb(195, 190, 190);
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.item_one:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item_one img{
+    height: 10em;
+    width: em;
+}
+.item_one h5{
+    color: rgb(241, 118, 138);
+}
+
+.item_one p{
+    font-size: 13px;
+}
+/* ========================================================================================== */
+
+.aside_parent{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+}
+
+.aside_2{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 23%;
+    height: 100%;
+    text-align: center;
+    padding: 0.5em 0em;
+    margin: 0% 0em;
+}
+
+.girl_profile img{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    margin: 0.6em 0em;
+}
+/* 777777777777777777777777777777 */
+.middle_pic{
+    width: 45%;
+    padding: 6em 0%;
+    text-align: center;
+    background-image: url(./middle_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white_box{
+    width: 48%;
+    background-color: rgba(248, 243, 243, 0.7);
+    text-align: center;
+    padding: 2em 1em;
+    margin: auto;
+    align-items: center;
+}
+.white_box .discount{
+    /* width: 25%; */
+    margin: auto 20%;
+    border-radius: 5px;
+    padding: 0.5em 0px;
+    background-color:  rgba(8, 8, 8, 0.4);
+    color: white;
+}
+
+.middle_pic h1{
+    font-weight: 800;
+    color: rgba(8, 8, 8, 0.7);
+}
+.middle_pic strong{
+    font-weight: 800;
+    color: rgba(8, 8, 8, 0.7);
+}
+
+.aside_3{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100%;
+    width: 28%;
+    /* text-align: center; */
+    /* align-content: center; */
+    padding: 1.5em;
+}
+
+.aside_para{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.para_heading{
+    color: rgb(65, 64, 64);
+    padding: 0% 1em;
+}
+.para_heading h3{
+    font-size: 17px;
+    font-weight: 800;
+}
+/* ============================================================================== */
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2em 0em;
+}
+
+.blog_picture{
+    /* border: 1px solid green; */
+    width: 22%;
+}
+
+.blog_picture strong{
+    font-size: 0.9em;
+    font-weight: 800;
+}
+
+.blog_picture img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog_picture .blog_para_1{
+    color: rgb(243, 145, 161);
+    margin-top: 0.4em;
+}
+
+.blog_picture .blog_para_2{
+    color: rgb(105, 104, 104);
+    margin: 0.3em 0em;
+}
+/* =====================FOOTER==================== */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer_div1 h3{
+    color: rgb(246, 166, 179);
+    font-size: 1em;
+    font-weight: 800;
+    padding-bottom: 1em;
+}
+.Fashion1{
+    padding-bottom: 1em;
+}
+
+.Fashion1 .span1{
+    font-size: 0.8em;
+}
+.Fashion1 .span2{
+    color: rgb(91, 90, 90);
+    font-size: 0.8em;
+}
+
+.footer_div1{
+    padding: 2.5em 8em;
+}
+
+.footer_div_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2.5em 4em;
+    gap: 30px;
+}
+
+.follow_us{
+    display: none;
+}
+
+.footer_div2 p{
+    padding-bottom: 0.4em;
+    color: rgb(91, 90, 90);
+    font-size: 0.9em;
+}
+
+.footer_div2 h3{
+    font-size: 0.9em;
+    font-weight: 800;
+    padding-bottom: 0.4em;
+}
+
+.aling_footer{
+    text-align: center;
+    padding: 1.5em 0%;
+}

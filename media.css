@@ -1,0 +1,332 @@
+@media screen and (max-width: 1100px) {
+    .heading{
+        width: 50%;
+    }
+    .iconA{
+        display: none;
+    }
+    .iconB{
+        display: none;
+    }
+    input{
+        width: 65%;
+    }
+    .main_image {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .FASHION_SALE{
+        font-size: 40px;
+    }
+    
+    aside{
+        display: none;
+    }
+
+    .middle_pic {
+        height: 100%;
+    }
+    .aside_3{
+        height: 100%;
+    }
+    .banner_column{
+        width: 43%;
+    }
+    .banner_column{
+        margin-top: 2em;
+    }
+    .banner2_items2{
+        margin-bottom: 2em;
+        font-size: 1em;
+    }
+    .item_one {
+        width: 14em;
+        padding: 30px 20px;
+    }
+}
+
+/* =======================MEADIA QUARY MAX WIDTH 820PX =============================*/
+
+@media screen and (max-width: 820px) {
+    
+
+    .fix_icon{
+        display: block;
+        position: fixed;
+        bottom: 0%;
+        margin: 0% 10%;
+    }
+    
+    .heading{
+        width: 40%;
+        font-size: 42px;
+        margin-right: 15px;
+    }
+    input{
+        width: 50%;
+        align-items: center;
+    }
+    
+    .main_image {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .Sale {
+        width: 46%;
+
+    }
+
+    .Trending{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .FASHION_SALE{
+        font-weight: 800;
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+    .doller{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .doller strong{
+        font-size: 28px;
+    }
+    
+    .item_one img{
+        height: 80%;
+        width: 100%;
+    }
+    .item_one {
+        width: 20em;
+    }
+
+    .item_one h5{
+        font-size: 17px;
+    }
+
+    .shampoo {
+        width: 50%;
+    }
+
+    .shampoo_prize {
+        width: 50%;
+        height: 100%;
+    }
+
+    .shampoo_prize .time p{
+        font-size: 10px;
+    }
+
+    .aside_parent {
+        display: block;
+        width: 100%;
+    }
+    .aside_2 {
+        width: 96%;
+        height: 100%;
+        margin: 2%;
+        padding: 0.5em 15%;
+    }
+
+    .middle_pic {
+        width: 96%;
+        margin: 2%;
+    }
+
+    .white_box{
+        padding: 2em 3em;
+    }
+
+    .aside_3 {
+        padding: 5%;
+        width: 96%;
+        margin: auto;
+    }
+    #our_services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aside_para{
+        padding-top: 4%;
+        width: 30%;
+    }
+    .blog_picture{
+        width: 40%;
+    }
+    .picture2{
+        display: none;
+    }
+
+    .footer_div_parent{
+        padding: 1em 0em;
+    }
+
+    .follow_us{
+        width: 20%;
+        display: block;
+    }
+
+    .follow_us h3{
+        font-size: 0.9em;
+        font-weight: 800;
+    }
+
+    .icon_follow{
+        color: gray;
+        margin-right: 10%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .select_none{
+        display: none;
+    }
+    .head p{
+        margin: auto;
+    }
+    
+    .heading {
+        width: 58%;
+        margin: auto;
+    }
+    .search {
+        margin-top: 5px;
+    }
+    input{
+        width: 96%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .main_image{
+        padding: 0em;
+    }
+    .Sale{
+        width: 100%;
+        height: 50%;
+        padding: 10% 6%;
+        background-color: rgb(255, 255, 255, 0.8);
+    }
+
+    .Trending{
+        font-size: 20px;
+    }
+    .FASHION_SALE{
+        font-size: 22px;
+    }
+    .doller{
+        font-size: 16px;
+    }
+    .doller strong{
+        font-size: 26px;
+    }
+    .shop_button{
+        padding: 6px 8px;
+    }
+    section{
+        margin: 0px;
+        gap: 0.5em;
+        width: 100%;
+    }
+    section .box_1{
+        width: 45%;
+    }
+    .flex {
+        column-gap: 15px;
+        margin-bottom: 5px;
+    }
+    .show_all a {
+        position: relative;
+        right: 25px;
+    }
+    .main_content{
+        width: 100%;
+    }
+    .top_items {
+        width: 68%;
+        margin: auto;
+    }
+    .banner_column {
+        margin: auto;
+        width: auto;
+        margin-bottom: 2em;
+
+    }
+
+    .banner2_items2 {
+        margin-bottom: 1em;
+        font-size: 0.9em;
+    }
+
+    .Shampoo_item {
+        width: 82%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1em;
+        padding: 1.5em 3em;
+        margin-bottom: 4em;
+    }
+    .shampoo {
+        width: 100%;
+    }
+    .shampoo_prize {
+        width: 100%;
+    }
+    .item_list{
+        width: 88%;
+    }
+    .item_one {
+        width: 13em;
+        padding: 2% 20px;
+    }
+    .item_one img {
+        height: 70%;
+        width: 100%;
+    }
+    .item_one h5 {
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .item_one p {
+        font-size: 12px;
+        color: gray;
+    }
+    .gap {
+        margin-bottom: 0em;
+    }
+    .rupees{
+        font-size: 14px;
+    }
+    .aside_para {
+        width: 80%;
+        margin: auto;
+        padding: 2% 5%;
+    }
+    .blog_picture {
+        width: 85%;
+    }
+    .picture_2nd{
+        display: none;
+    }
+    .footer_div_parent {
+        flex-direction: column;
+        padding: 8% 6%;
+    }
+    .follow_us {
+        width: 100%;
+    }
+    .icon_follow {
+        margin-right: 3%;
+    }
+}
